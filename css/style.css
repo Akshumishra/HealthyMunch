@@ -5,10 +5,16 @@
  body{
     background-image: url('/images/image2.png');
     background-size: cover;
+<<<<<<< HEAD
     background-repeat: no-repeat;
      background-blend-mode: lighten; 
      font-family: 'Times New Roman', Times, serif; 
  }  
+=======
+    /* background-blend-mode: lighten; */
+    font-family: 'Times New Roman', Times, serif;
+}
+>>>>>>> 672d8a0296d29368666f1d850a41a98c49099f91
 .logo{
     display: flex;
     align-items: center;
@@ -17,13 +23,13 @@
 .logo img{
     height: 120px;
     width: 120px;
-    border: 1px solid black;
+    border: 1.5px solid goldenrod;
     border-radius: 50%;
 }
 .logo p{
     color: darkgreen;
     letter-spacing: 2.5px;
-    font-size: 2.7em;
+    font-size: 2.5em;
     padding: 0px 30px;
 }
 /* .heading img{
@@ -36,14 +42,22 @@
     filter: drop-shadow(20px 20px 40px black);
 } */
 .text{
-    width: 100%;
-    height: 100%;
     display: block;
     letter-spacing: 2px;
-    font-size: 2.5em;
+    font-size: 2em;
     margin: auto;
     color:goldenrod;
     position: absolute;
-    left: 720px;
-    top: 200px;
 }
+div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  }
+  
+  div.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+  }
