@@ -207,5 +207,19 @@ color: white;
         <li> Help</li>
     </div>
     </footer>
+    <script>
+        // JavaScript code goes here
+        const form = document.querySelector('form');
+form.addEventListener('submit', handleFormSubmit);
+function handleFormSubmit(event) {
+  event.preventDefault();
+
+  const formData = new FormData(event.target);
+  const searchTerm = formData.get('search');
+
+  // Do something with the search term, like make an API request
+  console.log(`Searching for: ${searchTerm}`);
+}
+      </script>
 </body>
 </html>
