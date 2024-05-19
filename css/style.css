@@ -149,7 +149,9 @@ nav{
     border: 2px solid indianred;
 }
 h1{
+    color: goldenrod;
     letter-spacing: 1px;
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-left: 20px;
 }
