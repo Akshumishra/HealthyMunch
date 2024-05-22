@@ -159,13 +159,32 @@ h1{
     display: flex;
     padding-left: 15px;
 }
-.img1 img{
-    display: flex;
+.img1 .imag{
+    border: solid rgb(187, 180, 180);
+    border-radius: 3px;
+    margin: 12px;
+    transition: transform 0.2s ease; 
+}
+.img1 .imag:hover{
+    transform: scale(1.05);
+}
+.img1 .imag img{
     height: 250px;
-    width: 330px;
+    width: 300px;
     padding-left: 50px;
     border-radius: 10px;
     margin-top: 1%;
     filter: drop-shadow(20px 20px 40px white);
     padding: 2px 20px;
+    overflow: auto;
+}
+.img1 .imag .about-product{
+text-align: center;
+}
+.img1 .imag .about-product{
+    text-decoration: none;
+    color: black;
+}
+.img1 .imag .about-product:hover{
+    color: hsl(245, 31%, 69%);
 }
