@@ -188,3 +188,8 @@ text-align: center;
 .img1 .imag .about-product:hover{
     color: hsl(245, 31%, 69%);
 }
+footer{
+    background-color: black;
+    
+    color: white;
+    }
