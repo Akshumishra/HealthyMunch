@@ -16,9 +16,11 @@
     }
 
     .login {
+        justify-content: center;
+        align-items: center;
         width: 420px;
         height: 325px;
-        background: rgb(228, 236, 230);
+        background: rgb(57, 65, 59);
         border-radius: 5%;
     }
 
